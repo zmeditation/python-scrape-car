@@ -1,0 +1,9 @@
+install python
+
+folder/ command
+
+python -m venv venv
+
+venv/Scripts/activate
+
+(venv)-> pip install selenium

@@ -1,0 +1,28 @@
+https://www.upwork.com/ab/proposals/1667653157905752065
+
+Frank Rao
+Pembroke, Canada
+
+Doug Trott
+Mulmur, Canada
+
+
+Extract 30 data fields from structured data on a specific website, and search semantics in page descriptions for 3 two word phrases, indicating present or not, compile and deliver in csv format. Approximately 110,000 individual item description from the "closed auctions" on one website. The list of data elements is now attached.
+
+
+
+Messages:
+
+D Trott:
+Love that you are here in Canada.
+
+Here is the site we need to scrape: bringatrailer.com. I am just finishing the data template.
+
+dougtrott54@gmail.com
+
+Frank, really good first cut. A few data anomalies, check by sorting mileage for example. Some stray data. Cell p4 and q4 and p25 and q25 for example. Much easier to use if you convert "34k" in mileage to a straight numeric: 34,000. When mileage includes TMU, which means total mileage unknown, even if it mentions miles, simple use "TMU" in the mileage field:
+Great job with the colors! I forgot to give you the phrases we need searched. The objective is to categorize each listing as first owner or not. So the text needs to be searched for "first owner" or "original owner" or "one owner" or "1 owner" and similar you may think of. Category also has a few errant entries you can view by sorting..
+On this website, if it is one owner, it is almost always stated so in the title:
+We would like a column with Y if it is one owner, and N if there is no one owner mention...
+
+Thank you
